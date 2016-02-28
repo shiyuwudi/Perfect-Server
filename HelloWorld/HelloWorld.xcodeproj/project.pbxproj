@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D3A3121C83473700AF2DFA /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D3A3111C83473600AF2DFA /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D3A3141C83473700AF2DFA /* index.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 29D3A3131C83473700AF2DFA /* index.mustache */; };
+		29D3A3161C83473700AF2DFA /* PerfectHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3A3151C83473700AF2DFA /* PerfectHandlers.swift */; };
+		29D3A31E1C83481900AF2DFA /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D3A31D1C83481900AF2DFA /* PerfectLib.framework */; };
+		29D3A3201C83482C00AF2DFA /* MySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D3A31F1C83482C00AF2DFA /* MySQL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29D3A30E1C83473600AF2DFA /* HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D3A3111C83473600AF2DFA /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		29D3A3131C83473700AF2DFA /* index.mustache */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.mustache; sourceTree = "<group>"; };
+		29D3A3151C83473700AF2DFA /* PerfectHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectHandlers.swift; sourceTree = "<group>"; };
+		29D3A3171C83473700AF2DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D3A31D1C83481900AF2DFA /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../Library/Developer/Xcode/DerivedData/Untitled-eqrfnfuvkzaprmakakduryebpcbj/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		29D3A31F1C83482C00AF2DFA /* MySQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MySQL.framework; path = ../../../GitHub/Perfect/Connectors/MySQL/build/Debug/MySQL.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D3A30A1C83473600AF2DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3A3201C83482C00AF2DFA /* MySQL.framework in Frameworks */,
+				29D3A31E1C83481900AF2DFA /* PerfectLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D3A3041C83473600AF2DFA = {
+			isa = PBXGroup;
+			children = (
+				29D3A31F1C83482C00AF2DFA /* MySQL.framework */,
+				29D3A31D1C83481900AF2DFA /* PerfectLib.framework */,
+				29D3A3101C83473600AF2DFA /* HelloWorld */,
+				29D3A30F1C83473600AF2DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29D3A30F1C83473600AF2DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29D3A30E1C83473600AF2DFA /* HelloWorld.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29D3A3101C83473600AF2DFA /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				29D3A3111C83473600AF2DFA /* HelloWorld.h */,
+				29D3A3131C83473700AF2DFA /* index.mustache */,
+				29D3A3151C83473700AF2DFA /* PerfectHandlers.swift */,
+				29D3A3171C83473700AF2DFA /* Info.plist */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29D3A30B1C83473600AF2DFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3A3121C83473700AF2DFA /* HelloWorld.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29D3A30D1C83473600AF2DFA /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D3A31A1C83473700AF2DFA /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				29D3A3091C83473600AF2DFA /* Sources */,
+				29D3A30A1C83473600AF2DFA /* Frameworks */,
+				29D3A30B1C83473600AF2DFA /* Headers */,
+				29D3A30C1C83473600AF2DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 29D3A30E1C83473600AF2DFA /* HelloWorld.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29D3A3051C83473600AF2DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shiyuwudi;
+				TargetAttributes = {
+					29D3A30D1C83473600AF2DFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 29D3A3081C83473600AF2DFA /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29D3A3041C83473600AF2DFA;
+			productRefGroup = 29D3A30F1C83473600AF2DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D3A30D1C83473600AF2DFA /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29D3A30C1C83473600AF2DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3A3141C83473700AF2DFA /* index.mustache in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29D3A3091C83473600AF2DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D3A3161C83473700AF2DFA /* PerfectHandlers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29D3A3181C83473700AF2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29D3A3191C83473700AF2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29D3A31B1C83473700AF2DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiyuwudi.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		29D3A31C1C83473700AF2DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INSTALL_PATH = /PerfectLibraries;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiyuwudi.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D3A3081C83473600AF2DFA /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D3A3181C83473700AF2DFA /* Debug */,
+				29D3A3191C83473700AF2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D3A31A1C83473700AF2DFA /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D3A31B1C83473700AF2DFA /* Debug */,
+				29D3A31C1C83473700AF2DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29D3A3051C83473600AF2DFA /* Project object */;
+}
